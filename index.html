@@ -1,0 +1,44 @@
+<head>
+<link rel="stylesheet" href="stylesheet.css"> <meta charset="utf-8">
+</head>
+<html class="html">
+<h1 class="alt" style="color: rgba(10,86,155,1)"> Hausärtzte Hauingen</h1>
+
+<p class="unterschrift">Praxisgemeinschaft in der Rechberstr. 9, 79541 Lörrach Hauingen - 07621 770 4870</p>
+
+<div class="images">
+<img src="image1.jpg">
+<img src="image2.jpg">
+</div>
+<div id="Notfall">Notfall</div>
+<div id="Notfaller"><h2><b><u>Notfall</u></b></h2><p>Ärtzlicher Notfalldienst: Mo-Fr von 7-19 Uhr unter 01805 152637 Nach 19:00 Uhr sowie an Feiertagen und Wochenenden erreichen Sie den Ärztlichen Bereitschaftsdienst unter der Telefonnummer 116117. Die Notfallpraxis ist im Kreiskrankenhaus Lörrach. Sprechzeiten Mo – Fr 19.00 – 22.00 und Sa-So 09.00 – 22.00 Uhr. Zahnärztlicher Notfalldienst 01803 222 555 35. DRK Rettungsdienst 19222. Notfallnummer Polizei: 110. Notfallnummer Feuerwehr: 112. Vergiftungsnotfallzentrale Freiburg 0761 19240. Kreiskrankenhaus Lörrach (07621) 416-0. Elisabethen Krankenhaus (Kinderheilkunde, Gynäkologie, HNO, Urologie) (07621) 171-0. Apotheken Notdienstkalender: <a href="https://www.aponet.de">www.aponet.de</a>
+    
+     </p></div>
+<div id="popup"> !</div>
+<div id="popuper"> <h2><b><u>Wir Machen Sommerferien</u></b></h2> <p>Die Praxis bleibt vom 19.8.24-6.9.24 geschlossen. Vertrung durch das Hausartztzentrum Brombach in der Dr. Debus Straße 2 <a href="https://www.hausarztzentrum-brombach.de/">Website </a></p><p>Rezepte können nur noch nach Vorliegen der Versicherungskarte(1x im Quartal) ausgestellt werden. Bitte bestellen sie ihre Rezepte online, per Rezepttelfon oder per Zetteleinwurf. Sie können dann nach 2 Werktagen direkt in der Apotheke von ihrer Versichtertenkarte ausgelesen werden.  </p></div>
+<script>
+     var Notfall = document.getElementById('Notfall');
+    var Notfaller = document.getElementById('Notfaller');
+        
+    Notfall.addEventListener('click', function() {
+        if ( Notfaller.style.opacity == '1') {
+        Notfaller.style.opacity = '0';
+        }
+        else {
+            Notfaller.style.opacity = '1';
+        }
+
+    });
+    var popup = document.getElementById('popup');
+    var popuper = document.getElementById('popuper');
+        
+    popup.addEventListener('click', function() {
+        if ( popuper.style.opacity == '1') {
+        popuper.style.opacity = '0';
+        
+        }
+        else {
+            popuper.style.opacity = '1';
+        }})
+
+</script>
